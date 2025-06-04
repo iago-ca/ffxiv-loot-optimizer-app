@@ -572,7 +572,7 @@ const App = () => {
                 <div className="flex items-center space-x-3 mb-4">
                   {/* Class sprite placeholder */}
                   <img
-                    src={`/job_icons/${player.selectedClass.toLowerCase().replace(/\s/g, '')}.png`} // Path to job icons
+                    src={`${process.env.PUBLIC_URL}/job_icons/${player.selectedClass.toLowerCase().replace(/\s/g, '')}.png`}
                     alt={`${player.selectedClass} icon`}
                     className="w-16 h-16 flex-shrink-0" // Adjusted size, removed rounded-full and border
                     onError={(e) => { e.target.onerror = null; e.target.src="https://placehold.co/64x64/transparent/white?text=?" }} // Fallback for placeholder
