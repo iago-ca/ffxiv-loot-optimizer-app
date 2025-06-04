@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/ffxiv-loot-optimizer-app/static/css/main.31d6cfe0.css",
-    "main.js": "/ffxiv-loot-optimizer-app/static/js/main.d6e597c1.js",
+    "main.js": "/ffxiv-loot-optimizer-app/static/js/main.5050ac82.js",
     "static/js/453.d6e5742e.chunk.js": "/ffxiv-loot-optimizer-app/static/js/453.d6e5742e.chunk.js",
     "index.html": "/ffxiv-loot-optimizer-app/index.html",
-    "main.d6e597c1.js.map": "/ffxiv-loot-optimizer-app/static/js/main.d6e597c1.js.map",
+    "main.5050ac82.js.map": "/ffxiv-loot-optimizer-app/static/js/main.5050ac82.js.map",
     "453.d6e5742e.chunk.js.map": "/ffxiv-loot-optimizer-app/static/js/453.d6e5742e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.31d6cfe0.css",
-    "static/js/main.d6e597c1.js"
+    "static/js/main.5050ac82.js"
   ]
 }
