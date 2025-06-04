@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useCallback, useRef } from 'react';
+import React, { useState, useEffect, useCallback, useRef, useMemo } from 'react';
 
 // Main App component
 const App = () => {
@@ -358,7 +358,6 @@ const App = () => {
     page1: 'Page #1', page2: 'Page #2', page3: 'Page #3',
     ring1: 'Ring 1', ring2: 'Ring 2'
   }), []);
-
 
   // Function to generate Discord markdown output
   const generateDiscordMarkdown = useCallback(() => {
