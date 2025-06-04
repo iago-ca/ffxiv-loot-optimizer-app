@@ -26,6 +26,8 @@ Loot optimization in FFXIV raids can be complex, especially when coordinating di
 
 ## How to Use
 
+You can access the live application here: [FFXIV Raid Loot Optimizer App](https://iago-ca.github.io/ffxiv-loot-optimizer-app/)
+
 - Configure Your Team:
   - Enter the names of your 8 players. Roles (Tank, Healer, DPS) are pre-defined.
   - For each player, select their correct Job from the dropdown.
