@@ -6,11 +6,11 @@ const App = () => {
   const [numWeeks, setNumWeeks] = useState(8);
 
   // Class lists for each role
-  const classLists = {
+  const classLists = useMemo(() => ({
     Tank: ['Dark Knight', 'Warrior', 'Paladin', 'Gunbreaker'],
     Healer: ['Sage', 'Scholar', 'White Mage', 'Astrologian'],
     DPS: ['Monk', 'Samurai', 'Viper', 'Ninja', 'Dragoon', 'Reaper', 'Machinist', 'Dancer', 'Bard', 'Black Mage', 'Pictomancer', 'Summoner', 'Red Mage']
-  };
+  }), []);
 
   // State for team composition and player gear status
   // Fixed roles: 2 Tanks, 2 Healers, 4 DPS
@@ -349,7 +349,7 @@ const App = () => {
   }, [numWeeks, players, dpsOrder]);
 
   // Mapping for display names
-  const itemDisplayNames = {
+  const itemDisplayNames = useMemo(() => ({
     earring: 'Earring', necklace: 'Necklace', bracelet: 'Bracelet', ring: 'Ring',
     head: 'Head', gloves: 'Gloves', boots: 'Boots',
     pants: 'Pants', chest: 'Chest',
@@ -357,7 +357,8 @@ const App = () => {
     twine: 'Twine',
     page1: 'Page #1', page2: 'Page #2', page3: 'Page #3',
     ring1: 'Ring 1', ring2: 'Ring 2'
-  };
+  }), []);
+
 
   // Function to generate Discord markdown output
   const generateDiscordMarkdown = useCallback(() => {
