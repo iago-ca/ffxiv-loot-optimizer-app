@@ -654,7 +654,7 @@ const App = () => {
               onClick={exportConfig}
               className="px-6 py-2 bg-purple-600 hover:bg-purple-700 text-white font-bold rounded-lg shadow-md transition duration-300 ease-in-out hover:scale-105 focus:outline-none focus:ring-4 focus:ring-purple-500 focus:ring-opacity-50 w-full md:w-auto" /* Added w-full md:w-auto */
             >
-              Export Team Config (JSON)
+              Export Team Config
             </button>
             {/* Styled Import Button triggering hidden file input */}
             <input
